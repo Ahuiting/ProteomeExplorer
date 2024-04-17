@@ -1,0 +1,75 @@
+/**
+ * a basic dark theme
+ * Adapted from: https://stackoverflow.com/questions/49159286/make-a-dark-mode-with-javafx
+ */
+.root {
+    -fx-accent: gray;
+    -fx-focus-color: -fx-accent;
+    -fx-base: #282828;
+    -fx-control-inner-background: derive(-fx-base, 30%);
+    -fx-control-inner-background-alt: -fx-control-inner-background;
+}
+
+.label {
+    -fx-text-fill: lightgray;
+}
+
+.text-field {
+    -fx-prompt-text-fill: gray;
+}
+
+.button {
+    -fx-focus-traversable: false;
+}
+
+
+.check-box{
+    -fx-text-fill: #B8B8B8;
+}
+
+.titled-pane{
+    -fx-text-fill: #B8B8B8;
+}
+
+.text-flow {
+    -fx-text-fill: #B8B8B8;
+}
+.text{
+    -fx-text-fill: #B8B8B8;
+
+}
+.list-view{
+    -fx-text-fill: #B8B8B8;
+
+}
+TextFlow {
+    -fx-text-fill: #B8B8B8;
+    -fx-background-color: Gray;
+}
+.separator *.line {
+    -fx-background-color: #3C3C3C;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+}
+
+.scroll-bar {
+    -fx-background-color: derive(-fx-base, 50%)
+}
+
+.button:default {
+    -fx-base: -fx-accent;
+    -fx-text-fill: #B8B8B8;
+}
+
+.list-cell:odd{
+    -fx-control-inner-background: derive(-fx-base, 15%);
+}
+
+.list-cell:empty{
+    -fx-background-color: transparent;
+}
+
+.list-cell{
+    -fx-border-color: transparent;
+    -fx-table-cell-border-color: transparent;
+}
